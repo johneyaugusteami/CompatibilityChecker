@@ -15,7 +15,7 @@
 <body>
     <h1>What are you into?</h1>
     <fieldset>
-        <form action="#">
+        <form action="">
             <label for="iAM">Choose the energy you give off?</label>
             <select name="iAM" id="iAM">
                 <option class="masc" id="iMasc" value="iMasculine">Masculine</option>
@@ -30,8 +30,8 @@
                 <option class="both" id="theyMascFem" value="masculine">Both Masculine &/or Feminine</option>
                 <option class="neither" id="nothing" value="">I'm not really into anything</option>
             </select>
-            <button type="submit" value="submit">Submit</button>
-            <h4 id="statement" class="statement"> </h4>
+            <button type="submit" value="submit" onclick="submitAnswers()">Submit</button>
+            <h4 id="statement" class="statement"></h4>
         </form>
     </fieldset>
 

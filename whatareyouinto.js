@@ -20,5 +20,3 @@ function submitAnswers() {
         statement.innerHTML("<h4 style='color:red;'>Hey friend..You've gotta make a choice before clicking submit. Try again!.. or dont. C:</h4>")
     }
 }
-
-statement.onclick = submitAnswers()
