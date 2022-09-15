@@ -1,4 +1,37 @@
+body {
+    background-color: black;
+}
+
+label {
+    color: white;
+
+}
+
+select {
+    background-color: black;
+}
+
 h1 {
     position: relative;
     color: rgb(0, 102, 255);
+    background-color: black;
+}
+
+.masc {
+    color: red;
+    background-color: black;
+}
+
+.fem {
+    color: rgb(240, 74, 255);
+    background-color: black;
+}
+
+.both {
+    color: yellow;
+    background-color: black;
+}
+
+.neither {
+    color: rgb(81, 255, 0);
 }
