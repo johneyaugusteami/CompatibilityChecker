@@ -18,7 +18,7 @@ h1 {
 }
 
 .masc {
-    color: red;
+    color: blue;
     background-color: black;
 }
 
@@ -28,10 +28,16 @@ h1 {
 }
 
 .both {
-    color: yellow;
+    color: blueviolet;
     background-color: black;
 }
 
 .neither {
-    color: rgb(81, 255, 0);
+    color: yellow;
+}
+
+button {
+    color: white;
+    background-color: rgb(30, 179, 0);
+    font-weight: bold;
 }
