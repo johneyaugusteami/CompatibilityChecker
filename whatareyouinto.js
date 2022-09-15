@@ -21,7 +21,7 @@ function submitAnswers() {
         // statement.innerHTML("<h4 style='color:blue;'> You're straight! Congrats! Your people are the reason that the majority of the human population are here! Your code is (+-). </h4>")
         statement.insertAdjacentHTML("afterend", straight);
     }
-    else if ((iAM === iMasc && imINTO === theyMasc) || (iAM === iFem && imINTO === theyFem) || (iAM === iMascFem && imINTO === theyMasc || theyFem)) {
+    else if ((iAM === iMasc && imINTO === theyMasc) || (iAM === iFem && imINTO === theyFem)) {
         //statement.innerHTML("<h4 style='color:purple;'> You're GAY BESTIE! Congratulations!  Step 1:Eyebrows MATTER. They shape the face and will change your whole look. Please keep them clean friend. Growing up will be hard but it gets better. You code is (++) or (--). </h4>")
         statement.insertAdjacentHTML("afterend", gay);
     }
