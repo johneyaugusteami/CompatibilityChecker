@@ -15,13 +15,13 @@
 <body>
     <h1>What are you into?</h1>
     <fieldset>
-        <form>
+        <div>
             <label for="iAM">Choose the energy you give off?</label>
             <select name="iAM" id="iAM">
                 <option value="" selected disabled>Choose here</option>
                 <option class="masc" id="iMasc" value="Masculine">Masculine</option>
                 <option class="fem" id="iFem" value="Feminine">Feminine</option>
-                <option class="both" id="iMascFem" value="masculine &/or feminine">Masculine &/or Feminine</option>
+                <option class="both" id="iMascFem" value="Both">Masculine &/or Feminine</option>
             </select>
 
             <label for="imINTO">Choose the energy you're attracted to?</label>
@@ -29,12 +29,13 @@
                 <option value="" selected disabled>Choose here</option>
                 <option class="masc" id="theyMasc" value="Masculine">Masculine</option>
                 <option class="fem" id="theyFem" value="Feminine">Feminine</option>
-                <option class="both" id="theyMascFem" value="masculine">Both Masculine &/or Feminine</option>
+                <option class="both" id="theyMascFem" value="Both">Both Masculine &/or Feminine</option>
                 <option class="neither" id="nothing" value="Nothing">I'm not really into anything</option>
             </select>
-            <button type="submit" value="submit" onclick="submitAnswers()">Submit</button>
-        </form>
+            <button onclick="submitAnswers()" value="submit">Submit</button>
+        </div>
     </fieldset>
+
     <div id="statement" class="statement"></div>
 
 
