@@ -5,56 +5,891 @@ function submitAnswers() {
         iAM = document.getElementById("iAM"),
         theyARE = document.getElementById("theyARE"),
         statement = document.getElementById("statement"),
-        gay = "<h4 style='color:purple;'> You're GAY/LESBIAN BESTIE! Keep your head held high King/Queen! +(+), -(-)</h4>",
-        bisexual = "<h4 style='color:yellow;'> You're bisexual or a variation of bisexual! You get to participate in the best(& sometimes unfortunatly the worst) of both worlds! Congrats! C: +(+,-), -(+,-) </h4>",
-        asexual = "<h4 style='color:white;'> Welcome to the A-TEAM! You're asexual meaning you dont feel sexual attraction to Masculinity or Femininity & thats 100% Valid & I'm proud of you for living your truth! ( , )</h4>",
-        Fluid = "<h4 style='color:#D60270;'> Your 'sexuality' is situational dependant on who you're with and what/if you classify yourself as a particular gender. Your non-conformity is inspiring! x(x,+,-) </h4>",
-        noans = "<h4 style='color:red;'> Hey friend..You've gotta make a choice by selecting your personality type & the person in questions personality type.</h4>",
-        straight = "<h4 style='color:blue;'> You're Straight! Congrats! You and other straight baby making people are the reason that the majority of the human population are here! V gratetful for you! +(-) , -(+) </h4>";
+        noans = "<h4 style='color:red;'> Hey friend..You've gotta make a choice by selecting your personality type & the person in questions personality type.</h4>";
+
 
 
 
     statement.innerHTML = noans;
 
-    if (iAM.value == "Masculine") {
-        if (imINTO.value == "Masculine") {
-            statement.innerHTML = gay;
+
+
+
+
+
+    //ISTP
+    if (iAM.value == "ISTP") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
         }
-        if (imINTO.value == "Feminine") {
-            statement.innerHTML = straight;
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
         }
-        if (imINTO.value == "Both") {
-            statement.innerHTML = bisexual;
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
         }
     }
 
-    if (iAM.value == "Feminine") {
-        if (imINTO.value == "Masculine") {
-            statement.innerHTML = straight;
+
+
+
+
+    //ISFP
+    if (iAM.value == "ISFP") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
         }
-        if (imINTO.value == "Feminine") {
-            statement.innerHTML = gay;
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
         }
-        if (imINTO.value == "Both") {
-            statement.innerHTML = bisexual;
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
         }
     }
 
-    if (iAM.value == "Both") {
-        if (imINTO.value == "Masculine") {
-            statement.innerHTML = Fluid;
+
+
+
+    //ESTP
+    if (iAM.value == "ESTP") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
         }
-        if (imINTO.value == "Feminine") {
-            statement.innerHTML = Fluid;
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
         }
-        if (imINTO.value == "Both") {
-            statement.innerHTML = Fluid;
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
         }
     }
 
-    if (imINTO.value == "Nothing") {
-        statement.innerHTML = asexual;
+
+
+    //ESFP
+    if (iAM.value == "ESFP") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
+        }
     }
 
+
+
+
+    //INTJ
+    if (iAM.value == "INTJ") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+    }
+
+
+
+
+    //INTP
+    if (iAM.value == "INTP") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+    }
+
+
+
+
+    //ENTJ
+    if (iAM.value == "ENTJ") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+    }
+
+
+
+
+    //ENTP
+    if (iAM.value == "ENTP") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+    }
+
+
+
+    //INFJ
+    if (iAM.value == "INFJ") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+    }
+
+
+
+
+    //INFP
+    if (iAM.value == "INFP") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+    }
+
+
+
+
+    //ENFJ
+    if (iAM.value == "ENFJ") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+    }
+
+
+
+
+    //ENFP
+    if (iAM.value == "ENFP") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+    }
+
+
+
+    //ISTJ
+    if (iAM.value == "ISTJ") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+    }
+
+
+
+
+    //ISFJ
+    if (iAM.value == "ISFJ") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+    }
+
+
+
+
+    //ESTJ
+    if (iAM.value == "ESTJ") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+    }
+
+
+
+
+    //ESFJ
+    if (iAM.value == "ESFJ") {
+        if (theyARE.value == "ISTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENTP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "INFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ENFP") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ISFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESTJ") {
+            statement.innerHTML = variableforcouple;
+        }
+        if (theyARE.value == "ESFJ") {
+            statement.innerHTML = variableforcouple;
+        }
+    }
 }
 
