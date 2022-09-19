@@ -6,31 +6,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="This website is an experimental website to determine your sexuality using If & while statements">
+        content="This website is an experimental website to determine your compatability based on MBTI Personality types.">
     <title>What are you into?</title>
-    <link rel="stylesheet" href="sexuality.css">
+    <link rel="stylesheet" href="MBTI.css">
 
 </head>
 
 <body>
-    <h1>What are you into?</h1>
-    <fieldset>
+    <h1 class="main-heading">16 Personalities Compatability Checker</h1>
+    <div>
+
+        <h3 class="sub-heading">This Compatability checker will allow you to see the ranking of the compatability
+            between you and the person in question based on your MBTI Personality Types.</h3>
+        <h4 class="sub-heading_link">Find out what MBTI personality type you are by taking the test <a
+                class="link_to16p" href="https://www.16personalities.com/">Here</a>.</h4>
+
+    </div>
+    <fieldset class="field-set-Q">
         <div>
-            <label for="iAM">Choose the energy you give off?</label>
+            <label for="iAM">What is your MBTI Personality Type?</label>
             <select name="iAM" id="iAM">
                 <option value="" selected disabled>Choose here</option>
-                <option class="masc" id="iMasc" value="Masculine">Masculine (+)</option>
-                <option class="fem" id="iFem" value="Feminine">Feminine (-)</option>
-                <option class="both" id="iMascFem" value="Both">Masculine &/or Feminine (+-)</option>
-            </select>
+                <option class="Explorers" value="ISTP"> ISTP - Virtuoso</option>
+                <option class="Explorers" value="ISFP">ISFP - Adventurer</option>
+                <option class="Explorers" value="ESTP">ESTP - Entrepreneur</option>
+                <option class="Explorers" value="ESFP">ESFP - Entertainer</option>
+                <option class="Analysts" value="INTJ">INTJ - Architect</option>
+                <option class="Analysts" value="INTP">INTP - Logician</option>
+                <option class="Analysts" value="ENTJ">ENTJ - Commander</option>
+                <option class="Analysts" value="ENTP">ENTP - Debater</option>
+                <option class="Diplomats" value="INFJ">INFJ - Advocate</option>
+                <option class="Diplomats" value="INFP">INFP - Mediator</option>
+                <option class="Diplomats" value="ENFJ">ENFJ - Protagonist</option>
+                <option class="Diplomats" value="ENFP">ENFP - Campaigner</option>
+                <option class="Sentinals" value="ISTJ">ISTJ - Logistician</option>
+                <option class="Sentinals" value="ISFJ">ISFJ - Defender</option>
+                <option class="Sentinals" value="ESTJ">ESTJ - Executive</option>
+                <option class="Sentinals" value="ESFJ">ESFJ - Consul</option>
 
-            <label for="imINTO">Choose the energy you're attracted to?</label>
-            <select name="imINTO" id="imINTO">
+            </select>
+            <br> <br>
+            <label for="theyARE">What is the MBTI Personality Type of the person you are curious regarding your
+                compatability?</label>
+            <select name="theyARE" id="theyARE">
                 <option value="" selected disabled>Choose here</option>
-                <option class="masc" id="theyMasc" value="Masculine">Masculine (+)</option>
-                <option class="fem" id="theyFem" value="Feminine">Feminine (-)</option>
-                <option class="both" id="theyMascFem" value="Both">Both Masculine &/or Feminine (+-)</option>
-                <option class="neither" id="nothing" value="Nothing">I'm not really into anything ( , )</option>
+                <option class="Explorers" value="ISTP"> ISTP - Virtuoso</option>
+                <option class="Explorers" value="ISFP">ISFP - Adventurer</option>
+                <option class="Explorers" value="ESTP">ESTP - Entrepreneur</option>
+                <option class="Explorers" value="ESFP">ESFP - Entertainer</option>
+                <option class="Analysts" value="INTJ">INTJ - Architect</option>
+                <option class="Analysts" value="INTP">INTP - Logician</option>
+                <option class="Analysts" value="ENTJ">ENTJ - Commander</option>
+                <option class="Analysts" value="ENTP">ENTP - Debater</option>
+                <option class="Diplomats" value="INFJ">INFJ - Advocate</option>
+                <option class="Diplomats" value="INFP">INFP - Mediator</option>
+                <option class="Diplomats" value="ENFJ">ENFJ - Protagonist</option>
+                <option class="Diplomats" value="ENFP">ENFP - Campaigner</option>
+                <option class="Sentinals" value="ISTJ">ISTJ - Logistician</option>
+                <option class="Sentinals" value="ISFJ">ISFJ - Defender</option>
+                <option class="Sentinals" value="ESTJ">ESTJ - Executive</option>
+                <option class="Sentinals" value="ESFJ">ESFJ - Consul</option>
             </select>
             <button onclick="submitAnswers()" value="submit">Submit</button>
         </div>
@@ -40,7 +75,7 @@
 
 
 
-    <script src="whatareyouinto.js"></script>
+    <script src="MBTI.js"></script>
 </body>
 
 </html>
