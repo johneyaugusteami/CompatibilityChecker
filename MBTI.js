@@ -5,12 +5,7 @@ function submitAnswers() {
         iAM = document.getElementById("iAM"),
         theyARE = document.getElementById("theyARE"),
         statement = document.getElementById("statement"),
-        ISTPxISTP = "<h4 style='color:yellow;'>This Pair isnt ideal..But it can work!</h4> <br/> <h4 style='color:#e2857a;'>One of the most valuable aspects of the ISTJ-ISTJ relationship is the ability to share and compare notes about human experiences. They may be too similar in the wrong way because they share the same weaknesses. As a result, instead of focusing on growth, they tend to reinforce each other's vulnerabilities and rampant behaviors.</h4> <br/>",
-
-
-
-
-
+        ISTPxISTP = "<h4 style='color:yellow;'>This Pair isnt ideal..But it can work!</h4><h4 style='color:#e2857a;'>One of the most valuable aspects of the ISTJ-ISTJ relationship is the ability to share and compare notes about human experiences. They may be too similar in the wrong way because they share the same weaknesses. As a result, instead of focusing on growth, they tend to reinforce each other's vulnerabilities and rampant behaviors.</h4> <br/>",
 
 
 
