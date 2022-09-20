@@ -434,7 +434,7 @@ function submitAnswers() {
             statement.innerHTML = ISFPxINTP;
         }
         if (theyARE.value == "ESTP") { //done
-            statement.innerHTML = ETSPxINTP;
+            statement.innerHTML = ESTPxINTP;
         }
         if (theyARE.value == "ESFP") { //done
             statement.innerHTML = ESFPxINTP;
