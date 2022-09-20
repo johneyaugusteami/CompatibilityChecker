@@ -1,0 +1,75 @@
+body {
+    background-color: #674A49;
+}
+
+label {
+    color: #f9f9f8;
+
+}
+
+select {
+    background-color: #674A49;
+    color: #f9f9f8;
+}
+
+button {
+    color: #f9f9f8;
+    background-color: #ec858d;
+    font-weight: bold;
+    border: none;
+}
+
+.main-heading {
+    position: relative;
+    color: #f9f9f8;
+}
+
+.sub-heading {
+    position: relative;
+    color: #f9f9f8;
+    background-color: #ec858d;
+    padding: 1%;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.sub-heading_link {
+    position: relative;
+    color: #f9f9f8;
+    background-color: #ec858d;
+    padding: 1%;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.field-set-Q {
+    width: fit-content;
+}
+
+.Explorers {
+    color: rgb(255, 227, 68);
+    background-color: black;
+}
+
+.Analysts {
+    color: rgb(122, 2, 179);
+    background-color: black;
+}
+
+.Diplomats {
+    color: rgb(81, 190, 81);
+    background-color: black;
+}
+
+.Sentinals {
+    color: rgb(92, 92, 255);
+    background-color: black;
+}
+
+.link_to16p {
+    color: #f9f9f8;
+}
+
+/*.statement {
+    
+}*/
