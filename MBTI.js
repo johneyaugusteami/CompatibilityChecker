@@ -6,7 +6,7 @@ function submitAnswers() {
         theyARE = document.getElementById("theyARE"),
         statement = document.getElementById("statement"),
         noans = "<h1 style='color:red;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;background-color:#C1C1C1;'> Hey friend..You've gotta make a choice by selecting your personality type & the person in questions personality type.</h1>",
-        goodCompatibility = "<br/> <h1 style='color:#65FF00;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;background-color:#C1C1C1;'>Good Estimated Compatibility 🙂</h1>",
+        goodCompatibility = "<br/> <h1 style='color:#008000;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;background-color:#C1C1C1;'>Good Estimated Compatibility 🙂</h1>",
         mediumCompatibility = "<br/> <h1 style='color:#FF9900;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;background-color:#C1C1C1;'>Medium Estimated Compatibility 😅</h1>",
         lowCompatibility = "<br/> <h1 style='color:#e3242b;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;background-color:#C1C1C1;'>Low Estimated Compatibility 😢</h1>",
         veryGoodCompatibility = "<br/> <h1 style='color:#3D85C6;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;background-color:#C1C1C1;'>Very Good Estimated Compatibility 🥰</h1>",
