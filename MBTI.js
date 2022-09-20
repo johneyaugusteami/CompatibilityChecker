@@ -5,11 +5,11 @@ function submitAnswers() {
         iAM = document.getElementById("iAM"),
         theyARE = document.getElementById("theyARE"),
         statement = document.getElementById("statement"),
-        noans = "<h4 style='color:red;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;'> Hey friend..You've gotta make a choice by selecting your personality type & the person in questions personality type.</h4>",
-        goodCompatibility = "<br/> <h1 style='color:#65FF00;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;'>Good Estimated Compatibility 🙂</h1>",
-        mediumCompatibility = "<br/> <h1 style='color:#FF9900;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;'>Medium Estimated Compatibility 😅</h1>",
-        lowCompatibility = "<br/> <h1 style='color:#e3242b;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;'>Low Estimated Compatibility 😢</h1>",
-        veryGoodCompatibility = "<br/> <h1 style='color:#3D85C6;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;'>Very Good Estimated Compatibility 🥰</h1>",
+        noans = "<h1 style='color:red;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;background-color:#C1C1C1;'> Hey friend..You've gotta make a choice by selecting your personality type & the person in questions personality type.</h1>",
+        goodCompatibility = "<br/> <h1 style='color:#65FF00;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;background-color:#C1C1C1;'>Good Estimated Compatibility 🙂</h1>",
+        mediumCompatibility = "<br/> <h1 style='color:#FF9900;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;background-color:#C1C1C1;'>Medium Estimated Compatibility 😅</h1>",
+        lowCompatibility = "<br/> <h1 style='color:#e3242b;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;background-color:#C1C1C1;'>Low Estimated Compatibility 😢</h1>",
+        veryGoodCompatibility = "<br/> <h1 style='color:#3D85C6;margin: auto;width: 50%;border: 3px solid #ec858d;padding: 10px;background-color:#C1C1C1;'>Very Good Estimated Compatibility 🥰</h1>",
         ISTPxISTP = goodCompatibility,
         ISTPxISFP = lowCompatibility,
         ISTPxESTP = veryGoodCompatibility,
@@ -66,7 +66,7 @@ function submitAnswers() {
         ESFPxENFP = mediumCompatibility,
         ESFPxISTJ = veryGoodCompatibility,
         ESFPxISFJ = mediumCompatibility,
-        ESFPxESTJ = verygoodCompatibility,
+        ESFPxESTJ = veryGoodCompatibility,
         ESFPxESFJ = mediumCompatibility;
 
 
@@ -354,22 +354,22 @@ function submitAnswers() {
             statement.innerHTML = ISTPxINTP;
         }
         if (theyARE.value == "ISFP") {
-            statement.innerHTML = variableforcouple;
+            statement.innerHTML = ISFPxINTP;
         }
         if (theyARE.value == "ESTP") {
-            statement.innerHTML = variableforcouple;
+            statement.innerHTML = ETSPxINTP;
         }
         if (theyARE.value == "ESFP") {
-            statement.innerHTML = variableforcouple;
+            statement.innerHTML = ESFPxINTP;
         }
         if (theyARE.value == "INTJ") {
-            statement.innerHTML = variableforcouple;
+            statement.innerHTML = INTJxINTP;
         }
         if (theyARE.value == "INTP") {
-            statement.innerHTML = variableforcouple;
+            statement.innerHTML = INTPxINTP;
         }
         if (theyARE.value == "ENTJ") {
-            statement.innerHTML = variableforcouple;
+            statement.innerHTML = INTPxENTJ;
         }
         if (theyARE.value == "ENTP") {
             statement.innerHTML = variableforcouple;
